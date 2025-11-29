@@ -207,7 +207,7 @@ app.post('/colegios', async (req, res) => {
 
     form.append('vacante', '3');    // todos
     form.append('participa', '3');  // todos
-    form.append('dot-amount', '2'); // ~2km de radio
+    form.append('dot-amount', '5'); // ~2km de radio
     form.append('genero', '');
 
     console.log(
